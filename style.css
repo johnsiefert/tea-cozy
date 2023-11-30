@@ -79,10 +79,18 @@ li {
     align-items: center;
     padding-top: 100px;
 }
+.tea-break {
+    margin-top: 50px;
+    margin-bottom: 100px
+}
 img {
     padding: 10px
 }
-
+.locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .tea-card {
     display: flex;
@@ -93,4 +101,70 @@ img {
     width: 300px;
 }
 
+/* locations */
 
+.location-cards{
+    display: flex;
+}
+
+
+
+.location {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 205%;
+    left:28%;
+    transform:translate(-51%,-51%);
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    text-align: center;
+}
+.location-header {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 185%;
+    left: 50%;
+    transform:translate(-51%,-51%);
+}
+
+.location-2 {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 205%;
+    left: 50%;
+    transform:translate(-51%,-51%);
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    text-align: center;
+}
+
+.location-3 {
+display: flex;
+flex-direction: column;
+position:absolute;
+top: 205%;
+left:72%;
+transform:translate(-51%,-51%);
+height: 200px;
+width: 300px;
+background-color: black;
+text-align: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.copyright {
+    text-align: left;
+    padding: 20px;
+}
